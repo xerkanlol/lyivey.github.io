@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Geo');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=KoHo');
+
+*{
+	margin: auto;
+	padding: 0;
+}
+
+html {
+  height:100%;
+  background-image: linear-gradient(to right top, #ffffff 0%, #f47575 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav {
+  max-width: 960px;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18px;
+  font-family: "Geo", sans-serif;
+  text-transform:uppercase;
+  color: rgb(239, 50, 81, 0.5);
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgb(181, 21, 48, 0.7);
+}
+
+h1 {
+  font-family: "Geo", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #b51530;
+  font-size: 35px;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+}
+
+.ps a{
+  display: inline-block;
+}
+
+.collage {
+  font-family: "KoHo", sans-serif;
+  overflow: hidden;
+  padding: 60px;
+  text-align: center;
+  margin: auto;
+}
+
+.copyright{
+  position: sticky;
+  font-family: "Geo", sans-serif;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 15px;
+  color: rgb(255,255,255,0.7);
+  bottom: 0px;
+  right: 0px;
+}
