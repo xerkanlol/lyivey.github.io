@@ -10,6 +10,8 @@
 html {
   height:100%;
   background-image: linear-gradient(to right top, #ffffff 0%, #f47575 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 nav {
