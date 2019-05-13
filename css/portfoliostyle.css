@@ -57,6 +57,11 @@ h1 {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
 }
 
+.column2 {
+  column-count:2;
+  column-gap: 5px;
+}
+
 .column {
   float: left;
   width: 50%;
@@ -64,7 +69,7 @@ h1 {
 }
 
 .ps {
-  width: 800px;
+  width: 650px;
   display: flex;
 }
 
@@ -77,11 +82,11 @@ h1 {
 .collage {
   font-family: "KoHo", sans-serif;
   overflow: hidden;
-  padding: 25px;
+  padding: 10px;
   text-align: center;
   margin: auto;
   object-fit: contain;
-  width: 800px;
+  width: 600px;
 }
 
 .collage h1 {
@@ -97,41 +102,41 @@ h1 {
 .sketch {
   font-family: "KoHo", sans-serif;
   overflow: hidden;
-  padding: 25px;
+  padding: 10px;
   text-align: center;
   margin: auto;
   object-fit: contain;
-  width: 800px;
+  width: 600px;
 }
 
 .video {
   font-family: "KoHo", sans-serif;
   overflow: hidden;
-  padding: 25px;
+  padding: 10px;
   text-align: center;
   margin: auto;
   object-fit: contain;
-  width: 800px;
+  width: 600px;
 }
 
 .self {
   font-family: "KoHo", sans-serif;
   overflow: hidden;
-  padding: 25px;
+  padding: 10px;
   text-align: center;
   margin: auto;
   object-fit: contain;
-  width: 800px;
+  width: 600px;
 }
 
 .pp {
   font-family: "KoHo", sans-serif;
   overflow: hidden;
-  padding: 25px;
+  padding: 10px;
   text-align: center;
   margin: auto;
   object-fit: contain;
-  width: 800px;
+  width: 600px;
 }
 
 .copyright{
