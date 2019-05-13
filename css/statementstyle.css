@@ -81,7 +81,7 @@ h1 {
 }
 
 .copyright{
-  position: absolute;
+  position: sticky;
   font-family: "Geo", sans-serif;
   text-transform: uppercase;
   text-align: right;
